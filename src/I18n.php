@@ -23,6 +23,15 @@ class I18n implements I18nInterface
         return static::$missingKeys[$this->locale];
     }
 
+    public function getDict()
+    {
+        if (empty(static::$dict[$this->locale])) {
+            return array();
+        }
+        
+        return static::$dict[$this->locale];
+    }
+
     /**
      * Get instance
      * @param string $locale

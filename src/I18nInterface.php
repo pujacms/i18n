@@ -29,6 +29,12 @@ interface I18nInterface
     public function getLocale();
 
     /**
+     * Get dictionary (key => value) with current locale
+     * @return array
+     */
+    public function getDict();
+
+    /**
      * Translate message with current locale
      * @param $message
      * @param array $params
