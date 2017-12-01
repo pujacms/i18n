@@ -1,0 +1,22 @@
+{
+  "name": "jinnguyen/puja-i18n",
+  "description": "Puja-In18 library to manage localize message",
+  "type": "library",
+  "license": "Apache License 2.0",
+  "keywords": ["Puja", "I18n"],
+  "authors": [
+    {
+      "name": "Jin Nguyen",
+      "email": "w2ajax@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "jinnguyen/puja-stdlib": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Puja\\I18n\\": "src/"
+    }
+  }
+}
