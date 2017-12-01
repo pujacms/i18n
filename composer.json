@@ -1,6 +1,6 @@
 {
-  "name": "jinnguyen/puja-i18n",
-  "description": "Puja-In18 library to manage localize message",
+  "name": "pujacms/i18n",
+  "description": "I18n library to manage localize message",
   "type": "library",
   "license": "Apache License 2.0",
   "keywords": ["Puja", "I18n"],
